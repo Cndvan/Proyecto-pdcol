@@ -1,0 +1,46 @@
+
+*{
+	margin: 0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url(Imagenes/parquea.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-size: cover;
+	font-family: sans-serif;
+    
+}
+
+
+
+.lu {
+    color: white; 
+    background-color:black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 69px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+
+.lu :hover {
+    background-color:dodgerblue;
+}
+
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			
+			
+			
+			

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang ="es">
+<meta charset="UTF-8">
+<head>
+<title>Formulario crear cuenta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="Crear_cuenta.css">
+    </head>    
+    
+    <body>
+        
+       
+        
+        <!-- Cabecera -->
+        <form action="">
+            
+            <h2>Crear Cuenta</h2>
+       <form action="" method="post">
+             <div style="width:50%; float:left;">
+                <input type="text" name="Nombre" placeholder="      Nombres" >
+                  <input type="text" name="Apellido" placeholder="      Apellidos">
+                 <select placeholder="Tipo de Identificación">
+            <option>Tarjeta de Identidad</option>
+            <option>Cédula de ciudadania</option>
+            <option>Cédula extranjera</option></select>
+                 <input type="number" name="Documento" placeholder="      N° Documento">
+                 <input type="tel" name="Telefono" placeholder="       Telefono">
+            </div>
+            
+            
+            <div style="width:50%; float:left;">
+               
+                <input type="text" name="Cargo" placeholder="       Cargo"> 
+                <input type="email" name="Email" placeholder="       E-mail@">
+                <input type="password" placeholder="       Contraseña" >
+                <input type="password" placeholder="      Repetir contraseña" >
+            </div>
+           
+          
+       
+        
+         <center>      
+        <input type="submit" value="Aceptar"  onclick="return()">
+        <input type="reset" value="Cancelar">
+             <br>
+             <a href="loginLista.php" color="white">Ver lista de cuentas</a>
+           </center> 
+           </form>
+            
+            <script>
+    function return(){
+        
+        alert('Cuenta creada');
+      window.location="Bienvenido.html"; 
+           
+    }
+            
+        <footer id="pie">
+ Derechos Reservados &copy; 2017-2018
+ </footer> 
+            </form>
+    </body>
+
+
+</html>

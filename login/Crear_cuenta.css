@@ -1,0 +1,95 @@
+
+.{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Imagenes/fondos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    min-height: 50vh;
+}
+a{
+   text-align: center;
+    margin-bottom: 30px;
+    color: white; 
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+form{
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 50px;
+    border: 1px solid rgba(0,0,0.8);
+}
+footer{
+    text-align: center;
+    margin: 20px;
+    color: beige;
+}
+select{
+    display: block;
+    padding: 5px;
+    width: 82%;
+    margin: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+input{
+    display:block;
+    padding: 5px;
+    width: 80%;  
+    margin: 5px;
+    font-size: 15px;
+}
+input[type=button]{
+    background:  linear-gradient(#cccbf2,#4f75f2);
+    border: 50;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius:25px;
+    margin-top:0;
+}
+input[type=reset]{
+    background:  linear-gradient(#cccbf2,#4f75f2);
+    border: 50;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius:25px;
+    margin-bottom:0;
+	border-bottom-style:  dotted;
+
+}
+input[type="button"]:hover{
+    opacity: 1;
+}
+input[type="button"]:active{
+    transform: scale(0.95);
+}
+input[type="reset"]:hover{
+    opacity: 1;
+}
+input[type="reset"]:active{
+    transform: scale(0.95);
+}
+@media (max-width:780px){
+    form{
+        width: 75%;
+    }
+}
+@media (max-width:480px){
+    form{
+        width: 90%;
+    }
+    
+    
